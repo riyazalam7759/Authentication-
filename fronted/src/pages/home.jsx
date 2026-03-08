@@ -23,7 +23,7 @@ function Home() {
 
   const fetchProducts = async () => {
     try {
-      const url = "http://localhost:8080/products"//product-service-1t0o.onrender.com/api/v1/products
+      const url = "https://authenticationapp-mu.vercel.app/products"//product-service-1t0o.onrender.com/api/v1/products
       const headers = {
         headers: {
           'Authorization': localStorage.getItem('token')
