@@ -31,7 +31,7 @@ function Signup() {
          return handleError('All fields (email name and password) are required!')
       }
       try {
-         const url = "http://localhost:8080/auth/signup"//auth-service-1t0o.onrender.com/api/v1/auth/signup
+         const url = "https://authenticationapp-mu.vercel.app/auth/signup"//auth-service-1t0o.onrender.com/api/v1/auth/signup
          const response = await fetch(url, {
             method: 'POST',
             headers: {
